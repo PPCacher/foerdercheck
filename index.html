@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Förder-Check Altersvorsorgedepot 2027 – André Peters, Finanzcoach in Mittweida</title>
+<meta name="description" content="Was zahlt Ihnen der Staat zum Altersvorsorgedepot 2027 dazu? Unverbindlicher Förder-Check von André Peters, Mittweida.">
+<style>
+:root{--navy:#0b1f3a;--navy2:#16325c;--gold:#c9a24b;--gold2:#e6c878;--bg:#f6f4ee;--ink:#1b2433;--mut:#5d6778;--card:#fff;--line:#e3dfd3}
+*{box-sizing:border-box}
+body{margin:0;font:16px/1.55 system-ui,-apple-system,"Segoe UI",Roboto,Arial,sans-serif;color:var(--ink);background:var(--bg)}
+a{color:inherit}
+.w{max-width:720px;margin:0 auto;padding:0 18px}
+.btn{display:inline-block;padding:13px 20px;border-radius:10px;font-weight:700;text-decoration:none;text-align:center;border:0;cursor:pointer;font-size:1rem}
+.gold{background:var(--gold);color:var(--navy)}
+.navy{background:var(--navy);color:#fff}
+.wa{background:#1f8f4d;color:#fff}
+#bar{background:var(--navy);color:#fff;font-size:.9rem;padding:10px 0}
+#bar .w{display:flex;flex-wrap:wrap;gap:8px 14px;align-items:center;justify-content:space-between}
+#bar .btn{padding:8px 14px;font-size:.9rem}
+header{background:linear-gradient(160deg,var(--navy),var(--navy2));color:#fff;padding:34px 0 64px}
+.brand{font-weight:700;letter-spacing:.04em;color:var(--gold2);font-size:.95rem}
+.claim{color:#c9d3e6;font-size:.9rem;margin:2px 0 18px}
+h1{font-size:1.9rem;line-height:1.2;margin:0 0 8px}
+header p{margin:0;color:#dbe3f2}
+.card{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:20px;box-shadow:0 6px 20px rgba(11,31,58,.08)}
+#rechner{margin-top:-44px}
+label,.lb{display:block;font-weight:600;margin:16px 0 6px}
+.lb:first-child{margin-top:0}
+input[type=range]{width:100%;accent-color:var(--navy)}
+select,input[type=number]{width:100%;padding:11px;border:1px solid #c9c5b8;border-radius:8px;font-size:1rem;background:#fff;color:var(--ink)}
+.val{font-size:1.5rem;font-weight:800;color:var(--navy)}
+.kids{display:flex;align-items:center;gap:14px}
+.kids button{width:44px;height:44px;border-radius:50%;border:1px solid var(--navy);background:#fff;font-size:1.4rem;color:var(--navy);cursor:pointer}
+details{margin-top:16px;border-top:1px solid var(--line);padding-top:12px}
+summary{cursor:pointer;font-weight:700;color:var(--navy)}
+#res{margin-top:18px;background:var(--navy);color:#fff;border-radius:16px;padding:22px}
+#res .k{color:#c9d3e6;font-size:.9rem}
+#big{font-size:3rem;font-weight:800;color:var(--gold2);line-height:1.1}
+.rows{margin:14px 0 0;padding:0;list-style:none}
+.rows li{display:flex;justify-content:space-between;gap:10px;padding:9px 0;border-top:1px solid rgba(255,255,255,.15)}
+.rows b{white-space:nowrap}
+.quote{margin-top:12px;font-weight:700}
+#tip{margin-top:14px;background:rgba(201,162,75,.18);border-left:4px solid var(--gold);padding:10px 12px;border-radius:6px;font-size:.95rem}
+.small{font-size:.82rem;color:var(--mut)}
+#res .small{color:#b9c4da}
+section{padding:34px 0}
+h2{font-size:1.4rem;line-height:1.25;color:var(--navy);margin:0 0 12px}
+.grid{display:grid;gap:12px}
+.item{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:14px 16px}
+.item b{color:var(--navy)}
+.alt{background:#efe9d8}
+ul.t{padding-left:20px;margin:8px 0}
+.adv{display:flex;gap:16px;align-items:center;flex-wrap:wrap}
+.adv img{width:110px;height:110px;border-radius:50%;object-fit:cover;border:3px solid var(--gold)}
+.adv h3{margin:0}
+.cta{display:flex;flex-wrap:wrap;gap:10px;margin-top:16px}
+footer{background:var(--navy);color:#c9d3e6;padding:26px 0;font-size:.85rem}
+footer a{color:#fff}
+</style>
+</head>
+<body>
+
+<div id="bar"><div class="w">
+<span>Riester-Neuverträge nach altem Recht sind nur noch bis 31.12.2026 möglich.</span>
+<a class="btn gold" href="https://outlook.office.com/book/AndrPeters@dvag02.onmicrosoft.com/?ismsaljsauthenabled">Termin bis 16.12. sichern</a>
+</div></div>
+
+<header><div class="w">
+<div class="brand">FINANZCOACH ANDRÉ PETERS</div>
+<div class="claim">Ihr Finanzcoach aus Mittweida</div>
+<h1>Was zahlt Ihnen der Staat dazu?</h1>
+<p>Der Förder-Check zum Altersvorsorgedepot 2027: in Sekunden eine unverbindliche Beispielrechnung.</p>
+</div></header>
+
+<div class="w" id="rechner"><div class="card">
+<div class="lb">Monatsbeitrag</div>
+<div class="val"><span id="mv">100</span> € pro Monat</div>
+<input type="range" id="m" min="0" max="200" step="5" value="100" aria-label="Monatsbeitrag in Euro">
+
+<label for="j">Geburtsjahr</label>
+<select id="j"></select>
+
+<div class="lb">Kinder mit Kindergeld</div>
+<div class="kids"><button type="button" id="km" aria-label="Weniger Kinder">−</button><span class="val" id="kv">0</span><button type="button" id="kp" aria-label="Mehr Kinder">+</button></div>
+
+<details><summary>Genauer rechnen</summary>
+<label for="s">Berufliche Situation</label>
+<select id="s">
+<option value="a">Angestellt, in Ausbildung oder verbeamtet</option>
+<option value="s">Selbstständig / freiberuflich</option>
+<option value="e">Ehe-/Lebenspartner:in eines/einer Förderberechtigten (mittelbar)</option>
+</select>
+<label for="b">Bruttojahreseinkommen (€)</label>
+<input type="number" id="b" min="0" step="1000" value="40000" inputmode="numeric">
+<p class="small">Das Einkommen dient nur der groben Schätzung Ihres Steuersatzes.</p>
+</details>
+
+<div id="res" aria-live="polite">
+<div class="k">Staatliche Zulagen im ersten Jahr</div>
+<div id="big">0 €</div>
+<ul class="rows">
+<li><span>Grundzulage</span><b id="rg">0 €</b></li>
+<li><span>Kinderzulage</span><b id="rk">0 €</b></li>
+<li><span>Berufseinsteigerbonus (einmalig)</span><b id="rb">0 €</b></li>
+<li><span>Geschätzte Steuererstattung (zusätzlich)</span><b id="rs">0 €</b></li>
+</ul>
+<div class="quote">Förderquote: <span id="rq">0 %</span> <span class="small">(Zulagen im Verhältnis zu Ihrem Beitrag)</span></div>
+<div id="tip"></div>
+<p class="small" id="note"></p>
+</div>
+</div></div>
+
+<section><div class="w">
+<h2>So setzt sich die Förderung zusammen</h2>
+<div class="grid">
+<div class="item"><b>Grundzulage.</b> 50 % auf die ersten 360 € Jahresbeitrag, 25 % auf den Teil von 360 € bis 1.800 €. Maximal 540 € im Jahr. Zulagen gibt es ab 120 € Eigenbeitrag im Jahr (10 € monatlich).</div>
+<div class="item"><b>Kinderzulage.</b> 1 € Zulage je Euro Eigenbeitrag, höchstens 300 € je Kind und Jahr. Voraussetzung ist Kindergeld für das Kind.</div>
+<div class="item"><b>Berufseinsteigerbonus.</b> Einmalig 200 €, wenn Sie zu Beginn des Beitragsjahres noch nicht 25 sind. Für 2027 betrifft das den Jahrgang 2002 und jünger.</div>
+<div class="item"><b>Steuervorteil.</b> Beiträge bis 1.800 € im Jahr zuzüglich Zulagen können Sie als Sonderausgaben absetzen. Das Finanzamt prüft, ob Zulage oder Steuervorteil günstiger ist.</div>
+<div class="item"><b>Mittelbar berechtigte Ehepartner.</b> Grundzulage höchstens 175 €, kein Berufseinsteigerbonus und kein eigener Steuerabzug.</div>
+</div>
+</div></section>
+
+<section class="alt"><div class="w">
+<h2>Warum ein Gespräch noch 2026 sinnvoll ist</h2>
+<ul class="t">
+<li>Neue Riester-Verträge nach altem Recht lassen sich nur noch bis zum 31.12.2026 abschließen.</li>
+<li>Bestehende Riester-Verträge genießen Bestandsschutz. Sie laufen weiter oder können auf die neue Förderung umgestellt werden. Beides zugleich ist nicht möglich.</li>
+<li>Das Altersvorsorgedepot steht ab dem 01.01.2027 zur Verfügung. Bis dahin kann kein geförderter Vertrag nach neuem Recht abgeschlossen werden.</li>
+<li>Alte Förderung: Grundzulage bis 175 €. Neue Förderung: bis 540 €.</li>
+</ul>
+<p>Welche Lösung zu Ihnen passt, hängt von Ihrer Situation ab. Das klären wir persönlich und unverbindlich. Damit ein Abschluss vor Jahresende organisatorisch möglich bleibt, bitte ich um Ihren Termin bis zum 16.12.2026.</p>
+</div></section>
+
+<section><div class="w"><div class="card">
+<div class="adv">
+<img alt="Portrait André Peters" src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAYEBAUEBAYFBQUGBgYHCQ4JCQgICRINDQoOFRIWFhUSFBQXGiEcFxgfGRQUHScdHyIjJSUlFhwpLCgkKyEkJST/2wBDAQYGBgkICREJCREkGBQYJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCT/wAARCADwAPADASIAAhEBAxEB/8QAHQAAAAcBAQEAAAAAAAAAAAAAAAECAwQFBgcICf/EAD4QAAEDAgUBBQUGBAYCAwAAAAEAAgMEEQUGEiExQQcTIlFhFHGBkaEIFSMyQrFSYnLBJDNDgtHhFlOSwvD/xAAaAQEAAwEBAQAAAAAAAAAAAAAAAQIDBQQG/8QAJBEAAgMAAgIDAQADAQAAAAAAAAECAxEEIRIxEyJBURQyoZH/2gAMAwEAAhEDEQA/APQQajsjslBq00zEhqUGpbWJYYqgaDEYYnxGlCNQBju0fdqQGIxFdQSkRhF6JQh9FKEaPu0LkXukfdKUI0fdICL3Xoj7pSu7Q7tARe6R90pXdoaAgIvdeiIwqXoCHdoCCYUgw+isDEkmJAVxhSTCrExeiQYkBXGFJMPorAxeiQYfRAQDEiMSnGFJMSAgmNIcxTXRJt0aAhliQWqW5ibcxATQE41qDWp1rVYzCa1ONYlNanGsUMCWsStCWGpxrFBZIabGliNOhiUGoWGdCMMTtkCEA3oQIARSStjaXE2AXBO1jt/fgOJzYXgdRC8sBjc9gDrHg2N9j5eSA7lVYnRUIvU1dPD/AFvAWHx7t2yRgImbJiL6iWIlvdwR6i5w6A/3XjrE89YzWPLpayTWR4pS4uebnzWdkmlqNUr5SXOPU7uKjRh6vqvtXYI3SafDZ/zkOEjhdrbix2687Khm+1lVjFj3WFUbsODi2zi4PPrq+vC83tjkYwP8Mn8guSPkmy7TICLhunfdRow9P4P9qk1GNMbXYdTtw953ETjrYPO55sux4P2n5TxuqZS0WM00sj+LGzb3ta56r59sndckDd2wF7WUujxqtw6dk9NO6OZhBDgbm496nSD6SNs4XCMsXkTs3+0tmLD62moseqmVlEPC50rbvDf6h/deqcAzLheZKUT4dWQ1At4gx1y33qSSwMaSYlIsklqAjmNIMalFqSWICIY0gxqWWJDmICG6NNujU1zE06NAQXRppzFOexMPYgHmhOtCQwJ5gVjMWwJ0BJaE4AqkoAanGhE0JwBCyAAjsjsghISZqJ2QRukkcGtaCST0Cde4NBJ4C4b2z9urMqumwrCGRzVQsHSSAPidcbtI5ugM3259uBgjqMCwRxD5Gljp2v4aeRbkEcb+a8zzTzVMzpHeJzuSd1LxOqnxTEJaud93SOLib36o6eke95L2khouR6KjlhaMGxmKgnmYS6MaDwSpkeF0zdpHh0mnhgJLR67/APaVBBNM+SR4cWsbcgfQDySKSrdTappovw2MdpiO2p5FgSeb7rPWzTxSHX4VDFA18Ury7iQbt7s+Zv09Uw2lgqG2c9wcCRdjRb990mhdCywY7R3p0aySXMPQHoRxdS4KuGuhFNURRw1MYIa17bNI9Hcjfz2UlSunoqSCIFj5HvBs8ONj7wPJRJAS4aS0j9JbYBSqimYyQs0yNfxpd1PvTVNTOllMbL6zw0qdHjpGDnMO5LVr8hdouLZMxeGppa+aKK4bIBuNN7nbr7lTQUlRPG/urhw/O0f8KBNTywm7m7e5TGa9ESra7Pd/Zd2s0HaHS+GP2epAu2NzgTIBy6w43XQbL55ZEzzXZKxI1dEXCQgNaS4gNF7nYc3+nK9v9m+dTnDLlLWVTYoqtzAXsa8EO/mAve397rQzNbZEQlcoISNlqSWp2yIhAMlibcxSCEhzUBEexR5Gqa9qjyNQAYE+wJDGp1oQohQSwETQlgIWFtCWElosEpCQIIIncICozPi1JhGEVFTWVEUEQad5H6QfS/8AwvBed8wffeNVDoomMhbI7u3N3cR/V1Xo77TWZaGhoIcNZI+TEZQSGAm0TfP3leZMOwqbEKxjNJLnFZznheuHkydlzLUmKkfhkM8z1W2lydHS0ZLItDy3YHrZXeXcKjw+nYA25sr80/tDA5wN+lui49nJk5dHdq4iUe/Zxmpwx1NK1rxdjXSWb6hhsT8SqR0jqqSOlYA3SDubHWPP3kLpObcBmiD5mNs5u7bcHflYiipW0+JRPc2zHEjjYA7EFe6q1Sic+6lxkQ6rL8h8MEcoL9JtpuLX8wo9VTGt71xfGJqcmM3Ni8Ancee66Li8JwnAtFOO8dINTXjewAJO/Xp8llaShjjY6UxkhxJY4+R81dT60ydfeFBUECmjZK38aM6S/wCoukyROEkcjfC9tj4ehVpVULhKIzH4nu1O/l9/w3+KdwPB5K2a1ibG3CmU0lohW28LDBcN9plDtNtrO6XU/E8rMewuDb7WI/utNhmDeyM2ZYnqVY1NK3Tv7iubK9qWo6kaE44ziGIYb7FOWC5twVvuw/OtbljNUEMdQyOKc6HNk4cL3so+ZsEY8SOaHahu2yx1FUz4ViUVTGXMkheHtLSQbg+a6dFvkjk8inwZ9F6KobU08crCC17QQVIWN7Lcckx/KVDWyEO7yMHWJhICeov0I8jutkvSeYIorJSFkAghJcE4UkhAMPCjSBS3hR5AgA0JxoSWp1o2QqKaNktoSWpxqEhhGgEEJAkyGwSkiX8pQHjrt3E787TRvmZNOSXG24bvsCfQdFUZTwZkLWzP3cRe56+que1kxSZvrah2iz5LMaCbWBQy/CREwO3e4brn8qWJnQ4cNkjR0rCGX89gFbUbOL88AeSrKXxAAXKtqL8PfkrjyO/FaiTU4K2viEUkepp5J5CyeNdlrppDJBZrhdwI2B9/quh0UbnsvdW8UDHNAeb+9a1SkvR57oJnJpsky1OH0cU0ZOpr4nE7abtd4re+yzrsDnpKOGGSFrpb6XHptxb5LvdTh8XdNBYC0Hb0VecCpJCC+EfJev5sXZ43Q2+jiseSKqZ0YMTtUri91/XoFssEyVHhlO38EB/JJ5W/iooIfyNBLRbfom54+8Fxt6hYWWuRvVSomNrqRrGloABG6pZPGHx2vbgrUYxBdrvDc3v7lmqiPu572IC86PXnRnMUjEh9wsVgscwz8R00VnNvvbZdCxJn+JlAtuL281l8WiLI3OA1MLbOXR4ssOXzI6dp+yrj7zRV2CyAuaLTxu3u3oQfThehhwvKH2bcW9jzaKN5LY3hwab25HHqL2Xq8cLqReo47WMCCCCsQBJKUiKAbcFHkCkuTDwgCYE50TbU4EIFN5ToTbeU4ECDCCAQQkCS8XFilJEjtIv5IGeLe06sNb2gYk2QgdxUOZbpsfL02VpgIGkbWFr2vc/FZnN7Kl2bcSfKPxJKmV9zzu8m59VpsssbHACTc2HRczl+jqcH2aOgbdjgL3vyrqliDSLtuCNlUUgs6wHPRW0AdG9twSPO65UvZ24GioC1wAF9grOKwDbcefkqegcTY3ABCsWvfa3Q9AFtB9GU1rJlQ5zmWF7fsm2Ak6b2sNygJRHEC4bnnqQkxPsx3Tp8Fo/6USeBaxr3F/VR6maMDcgHyRzamaib7qFO/W4je46rNsso6VOKtNnabE3+izlVGNTr3NgefNaWr8bS07keSqK6Asid4baRdxKy/TRGIr23mLhu5vKoqyN7W+Egh4sAf2WgrHgSOA4Ius9WPew2FrX2BXt477PBylqJvZjMaPN1KGufeKVsjHN5Avvt1XteJ2tgcCDcXuF4UwCskocfpahrCHRStPh5tqvde5qGZtRSQzN4kja8fEXXXh6OHP2PoIIK5UBRFAoFAIcmXp8pl6AbaU41NtTrShA40JYSAlBCQwjRBGgAqjMmY8Ny1Q+1YlM5jHHS1rG6nPPkArdcy7b4nDDMMqmsD+7ncxwPkQP+FnbNwg5I249assjB/pwLPtVT4rmyqxKlkaYZ3Etsws0tHDbHg9T6qfl+AMpLm1ncWUTM9AZCyaEN7uazJG6RqD/0u9LHn0un8vVT34bF3zC17WAPv0Nt1zr5+cFI6lVPxWOH8NLhw8eokeivItEjGgG55BXPKnMLS51NTF7XtO5tYH49FYUma3UIDahzW2OxdwF5PhbParoo6PQN2A2v5K3ZG0N2t8Dyuf0mfKNrQXgOAGzgbX/6VzQZohrA3u3OaXG4A3HzVvBx9j5VN9GpcdbL6beQPVHCQWbEcquirGvaQXG9v1FLFWGgAW2UeSJzomTN2LhY7qDM0PDz6beiZnxFsY8RDfeVR4hnOhw5p7yRpdvy4NH1SMfL0ikpqC1ssHMDCTwVnsyV0TnsgbZmr87wdiPJZ/Eu0llU58cckQa7+Alx+gWercdMsBcZJnsbv4odgfmCtFxZfpl/lx3om4qQ2YaQLeQVDjJjgpnySEAAXTRzHDWO0CW7mnb8M/8AKaqnR1EsJlme9znhsbGx3Gr1ueF6KuLYnudI81vKrazfY/l6riwfHGVFbCZ3xhsrKcfmc7nTfp6npdd67Oe1PMGOZqo8Mq20YpJ7sEEbdPcgAkaTybWXm6lZV1eKiohc50o8QcPLqSutdk0Mg7QsFeRd13EkdBYhbym1JJMypojKqc2uz1KggOEF7DmhIijRFAJKbenCm38IBlqdaE2CnGoQOhKCQEsISGjRBGgAsn2m4Q7FsrzaBd9M4TDa+w5+i1iTIxsjHNeA5rhYg8EKs4+UWjSqx1zU1+HlXMFIZqKcwlveMaxwBHG4usRDU4zQ1PsZjbSyCLvZNDQRoBtcbm+67BmTBBh2PYjSxjwQScn+E8fSyy1RSslqAe7aXnVHe2+nm3u2XMrtdacGtO3yalbKNqeaYqKWeOV5FRKGHfU2zb++wTjsdhAMff19SWtLrQ3dpb1PoPVW2JZXcWOa1zQ1432N0vLeDR4T7TEaczRzsMco5Lhxv8FCv32zJ8dpdIyozG6pfGyGmxMNlALHSvZYguLQev6gQrRmO4phdQYfHFMw2MckbSR8gD8lY4fkLCcNxZteO+nax2oRPbYel3dVoKiM19W6Wrc7Q+34bGAbjhWstWdCrjy3ZFVR9odWQBU0tQ5wFwIRyPPc7K0qs64nDAHswCtDDYB8sjWjdQRDFVY8yBrBZtOdQt1LwR89JW7xSn7/AAx0L2hwdH081jKUFn0X/T01Vymn93/w5diecsQrHyQuZNAxp0GNrvEXDm7h09Aq1mHVeKUlVW09EDBTRmSSR7iOOg6kq5LRRYpPHNTu7qdoeHlu9vykj4j6rUYe+TDo3tYe+imb/lvYAD6FafJj9YjzfF5Rf9OTYfj+mojpo8Lw6d73MaLSuJBcPUdOD6qwqMZaal9BWUfssrTbS03bf0PULZx5ZwqkrXV1NhkcMx8TdUt2sPoFW1OACurWPlaHhpuSNgD6JOyD9Cuma9sydJgJfiJnAGg72urx1HHCyV4aNT3fFu1tlom4XHSNsS/WRcauqp69ukDbkk/VZq6TNPgUfaKrB6IwVsj9Onlt72vexXcewTLgkxGsxibxezN7qL0c7n5C/wA1yqOSM0dPqaNRdYH9x+y712FFrsBxEtAt7Xa/+wL01fa1aZXr4+N9f06YggguicYJEUZRFAJKbenCm38IBht08wJphsnWIQOBLCQEsISKCCAQQAQPCCCA4f2oa6LN1Y5oP40UclvPb/orF1Lix73tb4tVwF1Htqw17BQ4sxh0AGnle0flubtJ+oXL5BdzXc6gDfzXIvj4zkd6iflVD/wOICqEZdxfVzsliia+S7IyHedroQ0r73icBbfQ7hXdGypfG0GmkPS7C0rzZvo9qaztFezDnkDU9wHVPviYIPw2j1crg0k7B4qOc7cOLWj91QYpLUSvFIyOKCAm0gjdqc4eRPT4K3h/Sqlv+qK/DopnVNTVWY2OpczQ0DfS0EA38jcm3qtJUzSGkDbE2CrmgCdrA3drRsArkYfMae9jY77n9lSb1m9cYpGIq6KSoqWOaSXxkkNIvcHlvx/cXV1hjmVFIIyLObtxuPRQ8VZJS1EcjQWuaVa4UKXEahzJw+mqrfnidbV6noVLbaMnFJsiz4bIdRIDgBt4VFbRTUzg5sY0kbmwutZ9w1JJ7rEXm46xtuilwLw3mqHynnfYfRRjI6XoxuJSCSIMuNY326LN4hY7AcDlazG6MQE6CQAfSyydWNbyTvzwrwM7fQmOMmGJ5cQGh2ltut16J7DKI02ShUHmqqHvHuFm/wBiuF4Vl7FMbkpKXDqSSd8zSRoabNu47k8AbL09k3AP/GMt0OFF4kfBH43jgvJu63pcrocaD8tOdzLF8SjvZdIIIFe45QSIo0RKAS5NPThTb0AyE6xNtCeYEIHAlBEEpCQwggggAggggI2I4dTYrRTUdXE2WCZul7T1C4ZnjKzMr4oymikfLTvYHxvfzbfY+5d8XNu2mkb920Nbb8kpjcfQhebkwTg2eri2OM1HejmdAbSb8FaOiqY4HCx5BBAWSgnIlYQdlcRVR7sk2Gnqeq476Z9DF9EnH8Zkgj0QEySv8LGX6lUbKWooqYTyv72YkucBsCfIJ2CYulfVSA6yCGX/AEjzSTMJoiTc2HlzforxjpVWJdFfh+ZmT1ry+knh0O0kvbsVsX5rpmUulskZa0XNt1kp6Uve3Q0tcbHxcKFVYB3xlIMsZNtQZwfVX8EVc2yDj+d2SVRbBRVFTcn/ACm3HzVjRYm6vnglpmPicxoB26+RUaLCRSBrRcAeXKusLjZRC4ZZoF97XPqjis6EZZ7ZpMNxh+swy3ZJ1FlOrKwaCbAeR9Fmqio9sDDD4JY9w617+ikCrdLTa37OHIHQrHtdFvNMqMxyhznEG9xuD0WSlcG6R1dvZXOKzuqJ3NJJP1VVT0z6vFKWkaLve9sYHqTZa1rswul0eoOzbDWYbkvCo2sDXugD3m27iSTv81p0xQ0zaOjgpmCzYo2sA9wsn124rFh883r0CIo0SkgBSSjKSUAlxTTynHFNPKAIBPMTTU8xCELCUOUQRhCQ0EEEAEEEEAFk+0/DXYlk+tEbdT4bTNHu5+i1ibqIGVMEkMrdTJGljh5gixVZLU0Wi8aZ5YpZCSCDuCtFhrW1bXRlu+9lWZhweXLeYKuglaR3bzoNti08H5J3Dq00lQ1+xaRz5LhWRyWM79c/JahyuopGtIhaXP8AI7C6oPvXE8Kk01uFE+ToX6gVvC+OZgmbZzioNTQNmcdYLmkfIqqljPTXBZ2UkObaV5aJaJzbfpe63yur6nzDgUjHS6izgkOH0Ch0+BQ947xtc2+7XNunanL1BPGHNhg2PAbpP0W0czS0ox3CrxHMGA+0Oka98duHabhUs+Z8LcHRU0skkjgBpbGS4nyFle1WVaWVv4UELCP5b3SsPwSOmnDIomh52LwOiiUkv0hwRDwuaeYXEMzLgWMjdJCvZIRDhhklHjO6nuijpoxqYCPJZ3N2MBsEdNARqfsPRYt+R55JxZn4/wAaSpqnnh2lnuV32S4WzGe0GjdKLx05M5Hq0bD5qkqGso8P0ki9t1SU+d6zJJixPDngVAqGOF+oB4PoRf5r18aOzR5OQ2q2e1Bwgsx2fZ+wrtCy/DiuGyAOsG1FOT44JLbtP9j1C0665xwIkaJAEUkpRSSgG3JpyecmnBABoTzE01OsQgcCUEkJQQkCCCCACCCCACCCCA5z2v5TdieHsxqkj1VNG20rQN3xefw/a647rLogb29V6newPaWuAIIsQeCF547UMsjJ+Ol1OHDDq0GSJvIjP6mrwcujfujocPkeP0Yzg1QHt0O4HqtJTQ6ozr0uPoNgsBg+IXeB6W5W2w+rdJBpDrbbBc6UcZ1q5+SDqqAPB0EjboqWSkroZ/CSQfMcLSQ1A3E0Tg+3PKTNr3c2I7bg9CrJYi+FXHSzAOLpCS7ZTYIY4N7dL3QfK6wOnnoFDr5nxMIfbTaxCzzvCZLFpFx2vbHGHB402uBZYKCqNdiElTO7wMNmhWGbsXbTQd00tLiABbz9PRZJuI+z05axxBPJWqr66PI7e8ZYY/iXeNMbSNR8jwqTNlK2jyPS1MthNXV1o7/+uNhufm4fJTcCwWrzJikVJADrlO7jxGzq4pjtyrqeLG8PwCj2gwmkDCPJ79/nYD5r38SrHp4OXb14/wBKXs67Q8X7PccjxPC5fCbNnp3HwTs6tcP2PRe4Mj51wvPmX6fGcLkvHINMkRPjheOWO9R9RuvnlEStp2e9pGO9nmImrwip0slGmaB41RyDpceY8+V0nHTmbh75RFcayF9pbL+Ynsosej+5qwnSJS7VTvP9XLfjt6rscU0dREyWJ7ZI3jU1zTcOHmCOVRrPZZPQyiKUiUEjZCbcE8QkEIBDU41IalhCBwJSSOEpCQIIIIAIIIIAIIKHimL0GC0UldiNXBSUsQu+WZ4a0fNATFzvtsoIq3K7ZHFve08wc0Hkg7EfssPnb7VGHYfI+myrh4xBzbg1dVdkX+1o8R+NknOWY8SxbJmByYlIHYjW0zKt4YzQ3fxaQOgAsFS7qPZenuaw5wxz6R+uLkdL8rRYPmEN0uuLtNjc8Knlp2zgPZbxC6r6iklYbsJB8wuU8Z14tx9HUIsyw1NtIbcDjzUxmNRtAdLILEb+i4w/FcTpB4ZRt/E237Jv/wAqxVotqjPvJUeD/pp83Xo7BXY7RtBMdiTx5rKY5mSnpo3SOlIeBZt+fksJLjuKVQs+oAHkwKM6CWofrfrkd/N0Uqr9bKTvb6SE4jiE2KVTqiTYfpHkm6WnfVSNa1jnAmzWgXLj0U+nwOoqntY1jnOcQGsaNyV1rKOQo8tRR1+IMa7E3j8KI8U48/6v2W0I+TyJ55yUFshGWMGpsh5crMWxItbOIjLUuP8AptAuIx/+5K8yY/jE+P4zWYnUE97VzOlcP4bnYfAWHwXXu3jOnhjynRS3DbTVzmnry2P/AOx+C4vHHrfddKuHisRzJzcnrFxMNlMij2RRRgKQxoFlukZsTGSyQgLoWQ+2HNGRA2GhqxUUN7mjqbvj/wBvVvwXPNbRK65sRYJwTNB/MFPRB6kwL7UuEVIYzF8GqqV/6n07xI34A2K6NlvtRyfmstZhmOUrpnf6Ex7qS/lpdb6LwyJgdtVlIhqGBwLtWofqBVXWn6J8mfQjlEQvHWTO3DMmTXxwsq5MQohsaWqcXC38p5b8F6NyJ2v5az3ExkFR7FXn81JUkBxP8p4cPr6LOUGiylps2pYSAlgKpI43hKSGJaEgQQTdRUxUsL5p5WRRMGp0j3BrWjzJPCAcSZJWRMc97mta0XLnGwA8yVx3PX2lcuZeMlLgTPvqsbca2nTA0/1cu+HzXn3OvbBmzPGuPEsSfHSE7UlP+HEPeB+b43V1Bsq5HoftB+0dlzK3e0eC6caxFt23jdanjPq/9Xub815nzr2jZiz3We041Xvla03jgZ4Yov6W/wB+VmXPJTT3ho3V1FIq3o4LyyNjG7nkMHvOy9JdpZNBimDUoPgpoGR28rNaF50y7CKrHsOieLtfVRNPuLwvUfbXgj9dNikTCWsPdyEDjyXk5bbj0ezhpefZg6NocXxjhjiB7lINIH38CgZekFVUVbQb6XD9leOicxw3tv5crjyf2aO1GGpMq5sBbUDxDYqJJlSJpIEdytbTgOIP9k++nbp81XyZPxr+GKGXWMGzPclMwo62QxQukqJSGsiaNTnHyAHK1L6bvHNhpozLM9waxjRckldLyjkqlynT/eNcGzYrK21zuIQf0t9fMrWqErHn4ZX2Qpjr9lHlLIrcsU4xHFGskxNzfBEN20wtx6u8z8lW55zRFlbBavGaj8SRvghjP+pIfyj3dT6ArdYhKZmuPU/ReaO3DMv3tmBmDwv/AMPho8YHDpnDf5Cw+JXXpqUekcO2xzflI5diNVUYjWTVdVIZaid5kkeeXOJuSkwxabbJ3u/FdOhtgvUkYhAW2slgbIggTZpPkCpBGvqu7zJKUGjqhGPCPclXUAOwshYjhxRXIQuVIHGyuHqpVNiUtPIHRyvjcDcFp4UFC6jQfRUJQSQlhYFhQ2TdXW01BTSVNXURU8EY1PllcGtaPMk8LNdoXaDhXZ1gL8TxEl8jzopqZh8c8luB5DzPQLyBnvtQzHn2se/E654pdWqOjiJbDH5Wb1Pqd1aMdDlh6Ezt9pnLeBtfT4BE7GqobCTdkDT/AFcu+A+K89527Vcz56mccWxF/s4N2UkPghZ/tHPvN1j3vJN7pB3WqikUb0N0mo8pJKI3RKQBzgG3KYc4uNynnM1NsmWtLnW8lEiUaLs8pxVZ3wCFw8L8QgB/+YK9r5lw6HFKWWjmbqZMwtI/uF447J4hJ2j5bZa/+PjPy3XtXEo7ta8X23XmuRtU+9PMuCwy4LnHFcIqholieOf1C2xHv2W1kprtDgLhV3bDQDC82YPmKFoDKi9FUEdTywn6hW1JKJYGm4JIGy4l68Zn0vG+9aZHji0cC/olOidIbaLX2t6qU2F8jtDGFzybAN5J9Fv8oZQhoWjEK5zJqhp8MYNxEfX1/ZVqqla8RXkXQpjr9jeScpMwOn+86+MCsePAw/6Tf+SplbWOrKsNv4WnhT8YrNEZ33twqehYS7Weu67NdagvFHz1tsrJeUiDnLG4csZcrcTlI/AjJa3+J52aPibLx7X1ElVVS1Mzi+aV5fI48kk3K7b9orMh10WARSbD/EzAH4NB+pXC3c3XrrXWmDYQCJxQ/KbdEOVcgKyKT/Kd7ildE3LOwAs1XcdtI5QCWjb4I0TQbD3IzxcIAiUY3CI7o+NvNAAgIg26UiIUA//Z">
+<div><h3>André Peters</h3><div class="small">Finanzcoach, Agentur für Deutsche Vermögensberatung<br>Markt 16, 09648 Mittweida</div></div>
+</div>
+<p style="margin-top:16px">Telefon / Mobil / WhatsApp: <a href="tel:+491714115482"><b>0171 4115482</b></a><br>
+E-Mail: <a href="mailto:Andre.Peters@dvag.de?subject=Anfrage%20Förder-Check"><b>Andre.Peters@dvag.de</b></a></p>
+<div class="cta">
+<a class="btn gold" href="https://outlook.office.com/book/AndrPeters@dvag02.onmicrosoft.com/?ismsaljsauthenabled">Termin buchen</a>
+<a class="btn wa" href="https://wa.me/491714115482?text=Hallo%20Herr%20Peters%2C%20ich%20habe%20Fragen%20zum%20Altersvorsorgedepot.">WhatsApp schreiben</a>
+</div>
+</div></div></section>
+
+<footer><div class="w">
+<p>André Peters ist selbstständiger Vermögensberater für die Deutsche Vermögensberatung.</p>
+<p>Hinweis: Alle Angaben sind eine unverbindliche Beispielrechnung nach dem Rechtsstand vom 15.11.2026 (Altersvorsorgereformgesetz, Beitragsjahr 2027). Die Steuererstattung ist eine grobe Schätzung für eine Einzelperson ohne Kirchensteuer und Solidaritätszuschlag. Dies ist keine Anlage- oder Steuerberatung.</p>
+<p><a href="https://www.dvag.de/andre.peters/impressum.html">Impressum</a> · <a href="https://www.dvag.de/andre.peters/datenschutz.html">Datenschutz</a></p>
+</div></footer>
+
+<script>
+//CALC
+function rate(br){return br<16000?0:br<22000?.18:br<30000?.25:br<40000?.28:br<55000?.32:br<70000?.36:br<85000?.4:.42}
+function calc(m,j,k,sit,br){
+  var b=m*12,ok=b>=120,e=Math.min(b,1800);
+  var g=ok?Math.min(e,360)*.5+Math.max(0,e-360)*.25:0;
+  if(sit==="e")g=Math.min(g,175);
+  var kz=ok?k*Math.min(e,300):0;
+  var bo=(ok&&sit!=="e"&&j>=2002)?200:0;
+  var st=(sit==="e"||b===0)?0:Math.max(0,Math.round((e+g+kz)*rate(br)-g-kz));
+  var z=g+kz+bo;
+  return{g:g,kz:kz,bo:bo,st:st,z:z,q:b>0?Math.round(z/b*100):0,b:b,e:e};
+}
+//ENDCALC
+(function(){
+  var $=function(i){return document.getElementById(i)},k=0,js=$("j");
+  for(var y=2010;y>=1955;y--){var o=document.createElement("option");o.value=y;o.textContent=y;if(y===1992)o.selected=true;js.appendChild(o)}
+  var eur=function(n){return n.toLocaleString("de-DE")+" €"};
+  function upd(){
+    var m=+$("m").value,j=+$("j").value,sit=$("s").value,br=Math.max(0,+$("b").value||0);
+    var r=calc(m,j,k,sit,br);
+    $("mv").textContent=m;$("kv").textContent=k;
+    $("big").textContent=eur(r.z);$("rg").textContent=eur(r.g);$("rk").textContent=eur(r.kz);
+    $("rb").textContent=eur(r.bo);$("rs").textContent="ca. "+eur(r.st);$("rq").textContent=r.q+" %";
+    var t;
+    if(r.b<120)t="Zulagen gibt es erst ab 10 € im Monat (120 € im Jahr).";
+    else if(k>0&&m<25)t="Ab 25 € im Monat erreichen Sie die volle Kinderzulage von 300 € je Kind.";
+    else if(m<150)t="Mit 150 € im Monat (1.800 € im Jahr) erreichen Sie die volle Grundzulage von 540 €.";
+    else t="Sie nutzen die volle Grundzulage. Höhere Beiträge bringen keine zusätzliche Zulage.";
+    if(sit==="e"&&r.b>=120&&m>=15)t="Als mittelbar Berechtigte:r ist die Grundzulage auf 175 € begrenzt.";
+    $("tip").textContent=t;
+    $("note").textContent="Unverbindliche Beispielrechnung, Rechtsstand 15.11.2026. Die Steuererstattung ist eine grobe Schätzung (angenommener Grenzsteuersatz "+Math.round(rate(br)*100)+" %).";
+  }
+  $("km").onclick=function(){k=Math.max(0,k-1);upd()};
+  $("kp").onclick=function(){k=Math.min(8,k+1);upd()};
+  ["m","j","s","b"].forEach(function(i){$(i).addEventListener("input",upd)});
+  upd();
+})();
+</script>
+</body>
+</html>
